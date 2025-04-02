@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+
+class pacienteModel extends Model
+{
+    //defino o banco de dados que será utilizado
+    use HasFactory;
+    protected $table='pacientes'; //nome da tabela
+    
+}//fim da classe model
+
+class funcionarioModel extends Model
+{
+    //defino o banco de dados que será utilizado
+    use HasFactory;
+    protected $table='funcionarios'; //nome da tabela
+    
+}//fim da classe model
+
+class admModel extends Model
+{
+    //defino o banco de dados que será utilizado
+    use HasFactory;
+    protected $table='adm'; //nome da tabela
+    
+}//fim da classe model
+
+class consultaModel extends Model
+{
+    //defino o banco de dados que será utilizado
+    use HasFactory;
+    protected $table='consultas'; //nome da tabela
+    
+}//fim da classe model
